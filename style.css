@@ -2,13 +2,10 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 200 to 1000
-
-.nunito-<uniquifier> {
-        font-family: "Nunito", sans-serif;
+.nunito-uniquifier> {
+ font-family: "Nunito", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight:200;
   font-style: normal;
 }
 body{
@@ -21,13 +18,14 @@ h1 {
     text-align: left;
     font-family: "Nunito", sans-serif;
     font-weight: 700;
-    margin:30px 0 30px 0
+    padding: 30px 0 30px 0
 }
 
 p {
    font-family: "Nunito", sans-serif;
    font-size: 18px; 
    text-align: justify;
+   
 }
 
 footer{
@@ -35,15 +33,17 @@ footer{
     margin: 30px;
 }
 .box{
-    width:700px;
+    width:550px;
     height:550px;
     border-radius:10px;
-    box-sizing:550px;
+    box-sizing: content-box;
  padding: 30px;
  background-color:white;  
  position:absolute;
  top:150px;
  left:300px;
+ box-shadow: 0 0 20px black;
+
 
 }
 .eliska {
@@ -53,15 +53,44 @@ right:-150px;
 border:3px solid white;
 border-radius:50%;
 }
-.twitter{
-background-color: #1da1f2;
-color: white;
 
+.twitter{
+    display: block;
+    background-color:  #1da1f2;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px; 
+    text-align: center;
+    size: 18px;
+    border-radius: 10px;
+    margin: 5px; 
+    box-sizing: border-box;
+    text-transform: uppercase;
+    pos
+    
+}
+.twitter:hover{
+    background-color:#0b7bc1;
 }
 .facebook{
+    display: block;
     background-color: #3b5998;
     color: white;
+    text-decoration: none;
+    text-align: center;
+    size: 18px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding:10px 20px;
+    margin: 5px;
+    text-transform: uppercase;
 }
+.facebook:hover{
+    background-color:#2b406e;
+
+}
+    
+
 
 /*
 BARVY:
