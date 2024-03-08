@@ -2,7 +2,7 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
-.nunito-uniquifier> {
+.nunito-uniquifier {
  font-family: "Nunito", sans-serif;
   font-optical-sizing: auto;
   font-weight:200;
@@ -29,7 +29,7 @@ p {
 }
 
 footer{
-    padding: 30px;
+    padding: 10px;
     margin: 30px;
 }
 .box{
@@ -41,9 +41,10 @@ footer{
  background-color:white;  
  position:absolute;
  top:150px;
- left:300px;
+ left: 300px;
  box-shadow: 0 0 20px black;
-
+ margin-left: 150px;
+ 
 
 }
 .eliska {
@@ -61,12 +62,12 @@ border-radius:50%;
     text-decoration: none;
     padding: 10px 20px; 
     text-align: center;
-    size: 18px;
+    font-size: 18px;
     border-radius: 10px;
     margin: 5px; 
     box-sizing: border-box;
     text-transform: uppercase;
-    pos
+    
     
 }
 .twitter:hover{
@@ -78,7 +79,7 @@ border-radius:50%;
     color: white;
     text-decoration: none;
     text-align: center;
-    size: 18px;
+    font-size: 18px;
     border-radius: 10px;
     box-sizing: border-box;
     padding:10px 20px;
